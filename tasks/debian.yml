@@ -1,0 +1,5 @@
+---
+- name: debian | Installing dumb-init
+  apt:
+    deb: "{{ dumb_init_debian_package }}"
+    state: "present"
