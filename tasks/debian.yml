@@ -1,7 +1,7 @@
 ---
 - name: debian | Installing pre-reqs
   apt:
-    name: "ca-certificiates"
+    name: "ca-certificates"
     state: "present"
 
 - name: debian | Installing dumb-init
